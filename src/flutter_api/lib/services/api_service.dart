@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'post.dart';
+import '../models/post.dart';
 
 class ApiService{
   final String baseUrl = 'https://github.com/vodanghuy/CMP177-LTDiDong/posts';
