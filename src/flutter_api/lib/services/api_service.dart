@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'post.dart';
 
 class ApiService{
-  final String baseUrl = 'https://my-json-server.typicode.com/buiphukhuyen/api/posts';
+  final String baseUrl = 'https://github.com/vodanghuy/CMP177-LTDiDong/posts';
 
   //Lấy toàn bộ bài viết
   Future<List<Post>> fetchAllPosts() async{
