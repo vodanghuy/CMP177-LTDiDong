@@ -3,7 +3,7 @@ import 'dart:convert';
 import '../models/post.dart';
 
 class ApiService{
-  final String baseUrl = 'https://github.com/vodanghuy/CMP177-LTDiDong/posts';
+  final String baseUrl = 'https://github.com/vodanghuy/CMP177-LTDiDong/tree/main/db/posts';
 
   //Lấy toàn bộ bài viết
   Future<List<Post>> fetchAllPosts() async{
